@@ -15,7 +15,7 @@
     <script src="js/datepickjQuery.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/order.js"></script>
 </head>
 
 <body>
@@ -48,7 +48,7 @@
             </ul>
         </nav>
     </header>
-    <main class="order">
+    <main class="order empty">
         <section class="container">
             <h1 class="subtitle">Корзина</h1>
 
@@ -180,7 +180,11 @@
 
 
     </footer>
-
+    <div class="screener"></div>
+    <div class="modal" id="order">
+        <button type="button" class="close">x</button>
+        <p>Ваш заказ оформлен под номером 101</p>
+    </div>
 </body>
 
 </html>
