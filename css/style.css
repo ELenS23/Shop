@@ -587,6 +587,15 @@ div a:hover {
     right: 300px;
 }
 
+/* ORDER */
+#color {
+    color: white;
+}
+
+#color-header {
+    color: #151C22;
+}
+
 /* FOOTER */
 footer {
     background: #000;
